@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.first-banner {
+    margin: 0 0 10px 0;
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 100px 300px;
+    padding-top: 20px;
+}
+
+.hald-width img {
+    width: 60%;
+}
+
+.text-color {
+    color: orange;
+}
+
+.buttons {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.second-banner {
+    margin: 0 0 100px 0;
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe {
+    display: flex;
+}
+
+.third-banner {
+    margin-bottom: 100px;
+}
+
+.recipe-card {
+    border-radius: 25px;
+    margin: auto;
+    width: 20%;
+    padding: 25px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.recipe-card img {
+    border-radius: 0;
+    width: 100%;
+}
+
+.forth-section {
+    display: flex;
+    margin: 30px 140px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
